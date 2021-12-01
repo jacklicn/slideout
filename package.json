@@ -1,6 +1,9 @@
 {
-  "name": "slideout",
-  "repository": "git@github.com:mango/slideout.git",
+  "name": "@feinote/slideout",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacklicn/slideout.git"
+  },
   "description": "A touch slideout navigation menu for your mobile web apps.",
   "author": "Guille Paz <guille87paz@gmail.com>",
   "version": "1.0.1",
@@ -11,8 +14,8 @@
     "hint": "jshint index.js"
   },
   "dependencies": {
-    "decouple": "0.0.2",
-    "emitter": "git+https://github.com/Mango/emitter.git#0.0.7"
+    "@feinote/emitter": "0.0.7",
+    "decouple": "0.0.2"
   },
   "devDependencies": {
     "better-assert": "1.0.2",
@@ -47,5 +50,12 @@
     "files": [
       "*.js"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/jacklicn/slideout/issues"
+  },
+  "homepage": "https://github.com/jacklicn/slideout#readme",
+  "directories": {
+    "test": "test"
   }
 }
